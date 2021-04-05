@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gestionpee" version="4">
+  <OBJECT>
+    <ID name="gestionpee" mc="Standard.Package" uid="4a130e9c-9d5c-42ed-b147-cd60355d8b99"/>
+    <PID name="GestionPEE" mc="Standard.Project" uid="ade57078-8d54-4e75-9627-400e40c33675"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gestionpee]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="2ed34222-fc1a-4a96-8ab5-daca82d67774"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Collaborateur AFPA" mc="Standard.Actor" uid="c5fa4de0-ba68-4f66-8c45-2f319620dded"/>
+        <COMPID name="Beneficiaire" mc="Standard.Actor" uid="2098e85f-27ed-4a35-bb8b-fdb1af2e1301"/>
+        <COMPID name="Produit Formation" mc="Standard.Class" uid="96bba0fd-1081-40a4-81ef-7c090f135407"/>
+        <COMPID name="Offre Formation" mc="Standard.Class" uid="4c60408b-3337-4031-86f3-8e1739561464"/>
+        <COMPID name="Stagiaire" mc="Standard.Class" uid="d7e70a9a-ea03-4d33-aebb-491b5a1ee898"/>
+        <COMPID name="Suivre" mc="Standard.Class" uid="ac7f694f-8d98-4eaf-8249-00da12ebe981"/>
+        <COMPID name="Etablissement AFPA" mc="Standard.Class" uid="5f94626f-28a0-4445-8168-926cb982d47a"/>
+        <COMPID name="Adresse" mc="Standard.Class" uid="ccf550ea-edcc-47b3-98f5-f66b2a78087d"/>
+        <COMPID name="Personne" mc="Standard.Class" uid="ad15b992-7767-4929-b58d-bfab8f2b322e"/>
+        <COMPID name="Professionnel" mc="Standard.Class" uid="55fa2954-a810-45a4-8b52-cc70191655f7"/>
+        <COMPID name="Titre Professionnel" mc="Standard.Class" uid="15b1cfc2-bf91-4127-b2d4-34664df9e202"/>
+        <COMPID name="Certificat Compétence Professionnelle" mc="Standard.Class" uid="2f2ed994-9b84-4893-a40e-fb7f1ca344af"/>
+        <COMPID name="Compétence Professionnelle" mc="Standard.Class" uid="44616f90-f1fb-4292-917c-f6603598482e"/>
+        <COMPID name="CollaborateurAfpa" mc="Standard.Class" uid="3fe2264c-1224-4d2e-b52a-7c14f63185ad"/>
+        <COMPID name="PEE" mc="Standard.Class" uid="f4f5c05d-8242-48f2-aadc-3b4335d9f4b1"/>
+        <COMPID name="Période" mc="Standard.Class" uid="cbea5ac9-9a43-4afc-813d-db3d8c96b0bf"/>
+        <COMPID name="Entreprise Etablissement" mc="Standard.Class" uid="29a1cf07-006a-4342-b545-33deada665f1"/>
+        <COMPID name="Coordonnees" mc="Standard.Class" uid="2c155392-4184-4503-91ff-234cd4d07cf6"/>
+        <COMPID name="Assistante" mc="Standard.Actor" uid="14a69535-1c66-462b-9f80-f12f53b9ae7a"/>
+        <COMPID name="Formateur" mc="Standard.Actor" uid="ba4d42a9-7748-478f-a1ec-b1ad5bfa5209"/>
+        <COMPID name="Authentifier" mc="Standard.UseCase" uid="2d604ebe-9dec-4d72-82bb-963a549a6426"/>
+        <COMPID name="Elaborer convention stage" mc="Standard.UseCase" uid="35d4fe59-56d6-4cda-8a5c-50913ac9823b"/>
+        <COMPID name="Consulter historique PEE" mc="Standard.UseCase" uid="bc631c08-f820-49fe-a2d6-3cc660655bfe"/>
+        <COMPID name="Valider Stage" mc="Standard.UseCase" uid="6a572b62-9571-4f88-9bb7-467325e30544"/>
+        <COMPID name="Enregistrer événements suivi PEE" mc="Standard.UseCase" uid="749c238a-8d2d-439b-8fd9-6bb59be2cf1b"/>
+        <COMPID name="SI GESFOR" mc="Standard.Actor" uid="df53b047-8411-4538-aa19-4548e9c489ea"/>
+        <COMPID name="Importer Données Référentiel" mc="Standard.UseCase" uid="2f9c3340-1acf-4a25-9207-d2433458ee2c"/>
+        <COMPID name="Imprimer documents PEE" mc="Standard.UseCase" uid="31d8e09d-3da7-4ce8-a085-9ac7cf563c94"/>
+        <COMPID name="Gérer Référentiel" mc="Standard.UseCase" uid="919542bd-c73b-4c1e-8bde-8f01419b586f"/>
+        <COMPID name="Gérer Préférences" mc="Standard.UseCase" uid="1805fc3d-b6af-42b0-81cb-428771bc7898"/>
+        <COMPID name="Répondre enquête insertion" mc="Standard.UseCase" uid="6b6f380c-322e-42b8-b1d4-fd6e217f0eeb"/>
+        <COMPID name="Déclarer changement situation Pro" mc="Standard.UseCase" uid="be6f1c3f-5346-4e92-92e5-c4e1758cf0fd"/>
+        <COMPID name="Préparer enquête insertion" mc="Standard.UseCase" uid="b86f415e-43b4-4a70-aa0c-9616b086f074"/>
+        <COMPID name="Consulter résultats enquête" mc="Standard.UseCase" uid="7cae9136-b739-47ed-82dc-61dba3c5ef1e"/>
+        <COMPID name="Consulter statistiques" mc="Standard.UseCase" uid="4d5fe81e-a630-48d3-950f-5fb21562bf51"/>
+        <COMPID name="Réaliser mailing" mc="Standard.UseCase" uid="b4cf4604-7c09-419b-ba5b-498ef9f16d24"/>
+        <COMPID name="Cadenceur" mc="Standard.Actor" uid="5f276b32-3791-4156-b7a3-c8cf2d2a0623"/>
+        <COMPID name="Agréger Résultats" mc="Standard.UseCase" uid="58ef36ed-b63d-4812-a973-696207b7f18f"/>
+        <COMPID name="Gérer relances" mc="Standard.UseCase" uid="682b22a9-7120-43b6-af2f-81795ead9f54"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+        <FOREIGNID name="subsystem" mc="Infrastructure.Stereotype" uid="00700680-0000-01d3-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Diagramme Classes" mc="Standard.ClassDiagram" uid="a788b9e1-4e7b-4387-a374-2050bf8154e5"/>
+        <COMPID name="Gestion PEE" mc="Standard.UseCaseDiagram" uid="2814d2db-9fb0-458f-bdec-a88f33d48457"/>
+        <COMPID name="Suivi Post Formation" mc="Standard.UseCaseDiagram" uid="e5ef1ec5-c1b8-4ac8-a2ba-7c3f7c5abb68"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
